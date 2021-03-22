@@ -1,7 +1,5 @@
-
-
 export const PersonsTable = (props) => (
-    <table id="list">
+    <table id="list" border = {props.border}>
         <thead>
             <tr>
                 <th>FirstName</th>
